@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraquedadas Foods</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--META TAG DE OG-->
+    <meta property="og:type" content="Website"/>
+    <meta property="og:title" content="Paraquedadas Foods Lda"/>
+    <meta property="og:image" content="url('/Img/logosite.jpg')"/>
+    <meta property="og:description" content="A melhor empresa de sempre!"/>
+    <meta property="og:site_name" content="Paraquedadas Foods"/>
+   
+    <link rel="stylesheet" href="./Style/output.css">
+</head>
+<body>
+
+    <!--HEADER-->
+     <header class="w-full h-[400px] bg-zinc-900 fundo1-home fundo1-cover fundo1-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./Img/logosite1.JPG" alt="logosite" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+
+            <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Paraquedadas Foods</h1>
+
+            <span class="text-white font-medium">IPPNSA, Luanda-Sul - Condomínio da polícia</span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Seg à Sáb - 08:00 as 19:00</span>
+            </div>
+        </div>
+    </header>
+ <!--FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça o nosso menu
+    </h2>
+
+    <!--INICIO MENU-->
+
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+          <!--PRODUTO ITEM-->
+            <div class="flex gap-2">
+                <img src="./Img/pseudopão.JPG" alt="PseudoPão"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">PseudoPão</p>
+                    <p class="text-sm">Pão levinho de fermentação natural, a combinação irresistível recheado até a última fatia,
+                         suprenda-se a cada mordida.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">1300,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="PseudoPão"
+                                data-price="1300"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+            
+
+             <!--PRODUTO ITEM-->
+             <div class="flex gap-2">
+                <img src="./Img/Faita.JPG" alt="Faita"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Faita</p>
+                    <p class="text-sm">Uma explosão de sabores, levemente picante, macia e suculenta 
+                        que te vai deixar deslumbrado/a.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">1500,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Faita"
+                                data-price="1500"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2">
+                <img src="./Img/Berlin_creme.JPG" alt="Bolas de Berlin"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Bolas de Berlim com creme</p>
+                    <p class="text-sm">Bolas de Berlim com recheio, uma tentação difícil de resistir 
+                        com surpresas a  cada mordida.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">250,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Bolas de Berlim com creme"
+                                data-price="250"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+             <!--PRODUTO ITEM-->
+             <div class="flex gap-2">
+                <img src="./Img/Berlin_sem.JPG" alt="Bola de Berlin sem creme"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Bola de Berlim sem creme</p>
+                    <p class="text-sm">Bola de Berlim sem recheio, tentação açucarada e irresistível, 
+                        com um toque de alegria.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">200,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Bola de Berlim sem creme"
+                                data-price="200"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2">
+                <img src="./Img/bolo_pote.JPG" alt="Bola de Berlin sem creme"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Bolo no pote</p>
+                    <p class="text-sm">Uma sobremesa prática e deliciosa, camadas de bolo macio, intercaladas com 
+                        recheios cremosos e coberturas deliciosas.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">800,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Bolo no pote"
+                                data-price="800"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+        </main>
+    <p>__________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+        </div>
+
+       <!--Gride Bebidas-->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+               
+             <!--BEBIDA ITEM-->
+             <div class="flex gap-2 w-full">
+                <img src="./Img/blue_1.JPG" alt="Blue"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div class="w-full">
+                    <p class="font-bold">Blue</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">200,00Kz</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Blue"
+                                data-price="200"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM BEBIDA ITEM-->
+
+                
+                <!--BEBIDA ITEM-->
+                <div class="flex gap-2 w-full">
+                    <img src="./Img/astro.JPG" alt="Astro"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                    >
+
+                    <div class="w-full">
+                        <p class="font-bold">Astro</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">200,00Kz</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                    data-name="Astro"
+                                    data-price="200"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--FIM BEBIDA ITEM-->
+
+                 <!--BEBIDA ITEM-->
+                 <div class="flex gap-2 w-full">
+                    <img src="./Img/yalaa.JPG" alt="Yalaa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                    >
+
+                    <div class="w-full">
+                        <p class="font-bold">Yala</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">300,00Kz</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                    data-name="Yala"
+                                    data-price="300"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--FIM BEBIDA ITEM-->
+
+
+                 <!--BEBIDA ITEM-->
+                 <div class="flex gap-2 w-full">
+                    <img src="./Img/agua_1.JPG" alt="agua"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                    >
+
+                    <div class="w-full">
+                        <p class="font-bold">Água</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">150,00Kz</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                    data-name="Água"
+                                    data-price="150"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--FIM BEBIDA ITEM-->
+
+                <!--BOTÃO SOBRE-->
+                <div class="flex gap-2 w-full">
+                    <div class="w-full">
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <button class="bg-gray-900 px-5 rounded text-white">
+                               <a href="sobre.html">Sobre</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--FIM BOTÃO SOBRE-->
+
+        </div>
+
+        <!-- Fim Gride Bebidas-->
+    </div>
+
+    <!--FIM MENU-->
+
+    <!--MODAL CART-->
+        <div class="bg-black/70 w-full h-full fixed top-0 left-0 z-9[99]  items-center justify-center hidden max-h-400 overflow-y-auto" 
+            id="cart-modal"
+        >
+
+            <div class="bg-white p-5 rounded-md  min-w-[90%] md:min-w-[500px]">
+                <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+                <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+                <p class="font-bold mt-4">Endereço de entrega:</p>
+                <input type="text" placeholder="Digite o endereço que deseja receber a sua encomenda:" 
+                id="address" class="w-full border-2 p-1 rounded my-1">
+
+                <p class="text-red-600 hidden" id="address-warn">Digite o endereço que deseja receber a sua encomenda!</p>
+
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+                </div>
+
+            </div>
+
+        </div>
+    <!--FIM MODAL CART-->
+
+    
+
+    <!--BUTTON CART FOOTER-->
+    <footer class="w-full bg-red-600 py-2 fixed  bottom-0 z-40 flex items-center  justify-center">
+        <button id="cart-btn" class="flex items-center gap-2 text-white font-bold">
+            (<span id="cart-count">0</span>)
+            Veja o seu carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+    <!--FIM BUTTON CART FOOTER-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
